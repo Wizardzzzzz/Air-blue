@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer__container">
+  <footer class="footer__container" id="contact_us">
     <div class="footer">
       <div class="footer__form">
         <div class="text__form">
@@ -18,7 +18,7 @@
             <P class="form__number__subtitle">654 321 987</P>
             <P class="form__text__subtitle">visit us</P>
             <P class="form__number__subtitle">2905 West Drive, Buffalo Grove</P>
-            <P class="form__text__subtitle">our social</P>
+            <P class="form__text__subtitle">our socials</P>
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_9456_60)">
                 <path
@@ -152,7 +152,9 @@ export default {
   margin: 56px 0 0 0;
   color: #ffffff !important;
 }
-
+input {
+  outline:none;
+}
 .form input:hover {
   border-bottom: 2px solid white;
 
@@ -223,14 +225,6 @@ button {
   align-items: center;
 }
 
-header {
-  line-height: 1.5;
-  height: 867px;
-  background-color: #2C2C2C;
-  padding: 0 227px;
-
-}
-
 ul {
   display: flex;
   column-gap: 60px;
@@ -283,11 +277,7 @@ nav a:first-of-type {
     margin: 0 2rem 0 0;
   }
 
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+
 
   nav {
     text-align: left;

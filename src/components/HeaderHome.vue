@@ -10,7 +10,7 @@ line-height: 68px;
 letter-spacing: -2px;
 color: #FFFFFF;
 ">Strategic <br>Agency</h1>
-      <p>We believe in the power of bold ideas that <br>can solve business challenges.</p>
+      <p >We believe in the power of bold ideas that <br>can solve business challenges.</p>
       <button>Learn more</button>
     </div>
     <div class="slider">
@@ -18,27 +18,27 @@ color: #FFFFFF;
         <swiper-slide>
           <div style="position: relative">
             <img src="/public/img/slider1.png" alt="slider1">
-            <div class="slider__text" style="position: absolute; left: 20%; top: 80%;">
+            <div class="slider__text" style="position: absolute; left: 20%; top: 75%;">
               <h2>Intro</h2>
-              <p>By the same illusion which lifts the <br>horizon.</p>
+              <p class="subtitle">By the same illusion which lifts the <br>horizon.</p>
             </div>
           </div>
         </swiper-slide>
         <swiper-slide>
           <div style="position: relative">
             <img src="/public/img/slider2.png" alt="slider1">
-            <div class="slider__text" style="position: absolute; left: 20%; top: 80%;">
+            <div class="slider__text" style="position: absolute; left: 20%; top: 75%;">
               <h2>Intro</h2>
-              <p>By the same illusion which lifts the <br>horizon.</p>
+              <p class="subtitle">By the same illusion which lifts the <br>horizon.</p>
             </div>
           </div>
         </swiper-slide>
         <swiper-slide>
           <div style="position: relative">
             <img src="/public/img/slider3.png" alt="slider1">
-            <div class="slider__text" style="position: absolute; left: 20%; top: 80%;">
+            <div class="slider__text" style="position: absolute; left: 20%; top: 75%;">
               <h2>Intro</h2>
-              <p>By the same illusion which lifts the <br>horizon.</p>
+              <p class="subtitle">By the same illusion which lifts the <br>horizon.</p>
             </div>
           </div>
         </swiper-slide>
@@ -76,8 +76,21 @@ export default {
 .slider__text{
 
 }
-p {
+.subtitle{
   margin: 0 0 0 22px;
+  text-align: left;
+  width: 264px;
+  height: 40px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  /* or 20px */
+  color: #FFFFFF;
+}
+p {
+
   text-align: left;
   width: 264px;
   height: 40px;
@@ -136,7 +149,7 @@ h2 {
 
 :deep(.swiper-button-prev) {
   left: 8%;
-  top: 80%;
+  top: 90%;
   height: 32px;
   width: 32px;
   border-radius: 20px;
@@ -145,7 +158,7 @@ h2 {
 
 :deep(.swiper-button-next) {
   left: 15%;
-  top: 80%;
+  top: 90%;
   height: 32px;
   width: 32px;
   border-radius: 20px;
@@ -160,7 +173,7 @@ h2 {
   width: 15px;
   height: 15px;
   padding: 11px;
-  top: 90%;
+  top: 84%;
   --swiper-navigation-size: 16px
 }
 

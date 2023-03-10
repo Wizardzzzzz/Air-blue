@@ -23,11 +23,11 @@ import HeaderHome from './HeaderHome.vue'
             </a>
           </div>
           <ul class="nav__list">
-            <li><a href="#">home</a></li>
-            <li><a href="#">about us</a></li>
-            <li><a href="#">services</a></li>
-            <li><a href="#">work</a></li>
-            <li><a href="#">contact us</a></li>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about_us">about us</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#work">work</a></li>
+            <li><a href="#contact_us">contact us</a></li>
           </ul>
         </div>
         <ul>

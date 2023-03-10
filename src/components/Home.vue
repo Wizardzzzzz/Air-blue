@@ -1,11 +1,11 @@
 <template>
-  <div class="home">
+  <div class="home" id="home">
     <h4>Who we are</h4>
     <p>We embrace a strategic approach to creative ideas. We are interested in people and human relationships. This is
       the main thing you need to know about us. We believe in the power of bold ideas that can solve business
       challenges.</p>
   </div>
-  <div class="what-we-do">
+  <div class="what-we-do" id="about_us">
     <H1 class="what-we-do-title">Our expertise</H1>
     <div class="item__list">
       <div class="item__first">

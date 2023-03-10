@@ -1,5 +1,5 @@
 <template>
-  <div class="background-approach">
+  <div class="background-approach" id="work">
     <section class="approach">
       <h6 class="approach-title">approach</h6>
       <h3 class="approach-subtitle">We strive to create meaningful projects</h3>
